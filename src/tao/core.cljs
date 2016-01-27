@@ -5,7 +5,7 @@
             [clojure.string :refer [split join replace trim]]
             [cljs.core.async :refer [put! <! chan]]
             [tao.utils :refer [deep-merge-with map->params log tap]]
-            [secretary.core :as secretary :include-macros true :refer [defroute]])
+            [secretary.core :as secretary :refer-macros [defroute]])
   (:import goog.History
            goog.history.Html5History
            goog.history.Html5History.TokenTransformer

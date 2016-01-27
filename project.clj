@@ -1,7 +1,7 @@
-(defproject pleasetrythisathome/tao "0.1.5"
+(defproject tao-fork "0.1.6"
   :description "Two way data binding for browser history"
-  :url "http://github.com/pleasetrythisathome/tao"
-  :author "Dylan Butman"
+  :url "http://github.com/meekrabR6R/tao"
+  :author "Nick Miano"
   :license {:name "Eclipse Public License"
             :url "http://www.eclipse.org/legal/epl-v10.html"}
   :lein-release {:deploy-via :clojars}
@@ -10,8 +10,8 @@
 
   :source-paths  ["src"]
 
-  :dependencies [[org.clojure/clojure "1.5.1"]
-                 [org.clojure/clojurescript "0.0-2173"]
+  :dependencies [[org.clojure/clojure "1.8.0"]
+                 [org.clojure/clojurescript "1.7.10"]
                  [org.clojure/core.async "0.1.278.0-76b25b-alpha"]
                  [secretary "1.1.0"]
                  [om "0.5.3"]
