@@ -1,4 +1,4 @@
-(defproject tao-fork "0.1.6"
+(defproject tao-fork "0.1.6-SNAPSHOT"
   :description "Two way data binding for browser history"
   :url "http://github.com/meekrabR6R/tao"
   :author "Nick Miano"
